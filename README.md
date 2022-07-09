@@ -8,4 +8,6 @@ properties and abnormalities.
 
 ### Progress
 
-Currently working on (a).
+(a) is done. This is a visualization of simulation of the nuclear envelope:
+
+![CGNES status](viz.gif)

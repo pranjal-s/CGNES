@@ -1,12 +1,12 @@
 # sim: simulation sub-module
 
-Date:               10-Apr-22
-Version:            0.7.0
+Date:               09-Jul-22
+Version:            0.9.0
 
 ### Description of files in this directory
 README.md           this file
 run.sh              run and monitor simulation
-init.lmp            assembles CGNP structure
+init.lmp            assembles CGNE structure
 log.lammps          LAMMPS log file (created at runtime)
 
 

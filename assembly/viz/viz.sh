@@ -27,7 +27,7 @@ mkdir -p ../fig/
 cd ../data
 
 # Remove portion that is not handled in ovito-basic-3.3.5
-sed -n '/Ellipsoids/q;p' < combined.data > combined2.data
+sed -n '/Ellipsoids/q;p' < ne.data > ne2.data
 # sed -n '/Ellipsoids/q;p' < init.data > init2.data
 
 # Return to pwd

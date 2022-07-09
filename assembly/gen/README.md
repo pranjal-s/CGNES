@@ -1,7 +1,7 @@
 # gen: initial configuration generators
 
 Date:               08-Jul-22
-Version:            0.7.0
+Version:            0.9.0
 
 ### Description of files and directories in this directory
 README.md           this file
