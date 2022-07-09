@@ -18,7 +18,7 @@
 # date         :08-Jan-22
 # version      :0.9.0
 # usage        :./run.sh
-# sh_version   :4.2.46(2)-release
+# sh_version   :5.0.17(1)-release
 
 # Ensure output file exists
 touch ../data/init.out

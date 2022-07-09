@@ -1,7 +1,7 @@
 # assembly: assembly module
 
 Date:               10-Apr-22
-Version:            0.7.0
+Version:            0.9.0
 
 ### Description of files in this directory
 README.md           this file
@@ -15,18 +15,16 @@ fig/*               save visualizations
 ### Usage
 
 1. Experimentally guided calculation of simulation units and model parameters
-   is done in param/param.xlsx. The parameters have already been input into the
+   is done in param/param.ods. The parameters have already been input into the
    files downstream.
 
-2. Next, the gen/ne_csk_make/README.md and gen/pc_make/README.md have
-   instructions on generating the initial configurations (data/ne_csk.data and
-   data/pc.data) of the nuclear components.
+2. The gen/README.md has instructions on generating the initial configuration
+   (data/ne.data).
 
-3. Next, the sim/README.md has instructions on assembling the nuclear components
-   into the CGNP structure (data/init.data).
+3. Next, the sim/README.md has instructions on simulating assembly of NE.
 
-4. Finally, the viz/README.md has instructions on visualization of the assembled
-   structure.
+4. Finally, the viz/README.md has instructions on visualization of the
+   assembly of NE.
 
 5. The data/* directory (created at runtime) stores all numerical output. A
    description of files expected to be output in this directory is included
@@ -35,13 +33,11 @@ fig/*               save visualizations
 6. The visualizations can be saved to fig directory (created at runtime).
 
 ### Description of files in ./data/
-ne_csk.data         initially generated NE structure with CSK
-pc.data             initially generated PC structure
-combined.data       combined structure
+ne.data             initially generated NE structure
 init.out            LAMMPS log output during assembly simulation
 init.lammpstrj      particle positions during assembly simulation
 init.dump_local     bond topology during assembly simulation
 init.data           assembled structure (also called CGNE structure)
 init.restart        restart file to initialize post-assembly simulations
 equil.txt           equilibrium temperatures, energies and lateral tension.
-combined2.data      combined structure processed for visualization
+ne2.data            initial structure processed for visualization
