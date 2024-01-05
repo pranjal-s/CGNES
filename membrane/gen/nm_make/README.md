@@ -1,4 +1,4 @@
-# ne_make: nuclear membrane generator
+# nm_make: nuclear membrane generator
 
 Date:               05-Jan-24
 Version:            0.9.0
