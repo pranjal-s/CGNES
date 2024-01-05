@@ -28,3 +28,4 @@ mkdir -p ../../data/
 mv ne.data ../../data/
 
 exit 0
+
