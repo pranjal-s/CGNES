@@ -1,7 +1,7 @@
 # nm_make: nuclear membrane generator
 
-Date:               05-Jan-24
-Version:            0.9.0
+Date:               10-Jan-24
+Version:            0.6.0
 
 ### Description of files in this directory
 README.md           this file
